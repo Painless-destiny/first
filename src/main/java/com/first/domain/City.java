@@ -4,9 +4,9 @@ package com.first.domain;
 import lombok.Data;
 
 @Data
-public class book {
-    private Integer id;
+public class City {
+    private Integer ID;
     private String Name;
-    private String Country;
+    private String countrycode;
     private String District;
 }
